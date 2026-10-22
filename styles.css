@@ -292,3 +292,29 @@ button:focus,
 button:active {
   outline-color: #b89b5e;
 }
+
+/* Global Dent — убрать синие акценты на телефоне */
+:root {
+  accent-color: #b89b5e;
+  color-scheme: light;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button,
+select,
+input,
+textarea,
+a {
+  accent-color: #b89b5e;
+}
+
+button:focus,
+a:focus,
+select:focus,
+input:focus {
+  outline-color: #b89b5e;
+}
+
