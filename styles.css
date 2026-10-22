@@ -276,3 +276,19 @@ h2 { font-size: clamp(36px, 4vw, 52px); line-height: 1.13; margin: 19px 0 0; }
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; }
   .reveal { opacity: 1 !important; transform: none !important; }
 }
+button,
+button svg,
+a,
+a svg {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  color: inherit;
+  accent-color: #b89b5e;
+}
+
+button:focus,
+button:active {
+  outline-color: #b89b5e;
+}
