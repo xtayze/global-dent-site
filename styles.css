@@ -355,4 +355,30 @@ input:focus {
   }
 }
 
+/* Global Dent — принудительные цвета стрелок и значков */
+.service-bottom a {
+  color: #8c6c32 !important;
+  -webkit-text-fill-color: #8c6c32 !important;
+}
+
+.service-icon,
+.floating-icon,
+.note-mark,
+.text-link,
+.map-open,
+.map-open span,
+.hero-buttons a span {
+  color: #b89350 !important;
+  -webkit-text-fill-color: #b89350 !important;
+}
+
+.menu-toggle span {
+  background-color: #282720 !important;
+}
+
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+
 
