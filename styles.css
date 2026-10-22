@@ -318,3 +318,41 @@ input:focus {
   outline-color: #b89b5e;
 }
 
+/* GLOBAL DENT — fix blue icons on mobile */
+
+@media (max-width: 768px) {
+  button,
+  button svg,
+  a,
+  a svg,
+  summary,
+  summary svg {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  button,
+  a,
+  summary {
+    accent-color: #b89b5e;
+  }
+
+  button svg,
+  a svg,
+  summary svg {
+    color: inherit;
+  }
+
+  button svg [stroke],
+  a svg [stroke],
+  summary svg [stroke] {
+    stroke: currentColor;
+  }
+
+  button svg [fill],
+  a svg [fill],
+  summary svg [fill] {
+    fill: currentColor;
+  }
+}
+
+
